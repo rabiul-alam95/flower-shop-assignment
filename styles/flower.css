@@ -98,6 +98,10 @@ nav a{
 }
 
 /* section styles*/
+main{
+          height: 530px;
+          width: 1920px;
+}
 .about{
           padding: 130px;
           border-radius: 10px;
@@ -132,6 +136,5 @@ nav a{
           font-weight: 700;
           margin-left: 137px;
           padding: 5px 35px;
+ 
 }
-
-
