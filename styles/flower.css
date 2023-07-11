@@ -38,7 +38,8 @@ body {
           padding: 10px 20px;
 }
 
-.btn-primary, .btn-next {
+.btn-primary,
+.btn-next {
           margin: 10px;
 }
 
@@ -63,23 +64,23 @@ nav {
           margin: 0 200px;
 }
 
-.nav-title{
+.nav-title {
           color: #181818;
           font-size: 45px;
           font-weight: 800;
 }
 
-nav > ul{
+nav>ul {
           display: flex;
           align-items: center;
 }
 
-nav li{
+nav li {
           list-style: none;
           margin-right: 15px;
 }
 
-nav a{
+nav a {
           text-decoration: none;
           color: #474747;
 }
@@ -87,20 +88,20 @@ nav a{
 
 
 /*header related style*/
-.header{
-         background: rgba(229, 84, 115, 0.10);
-         height: 530px;
-         width: 1920px;
+.header {
+          background: rgba(229, 84, 115, 0.10);
+          height: 530px;
+          width: 1920px;
 }
 
-.banner{
+.banner {
           padding: 30px 30px 0px 35px;
           display: flex;
-          align-items:center;
+          align-items: center;
           justify-content: space-between;
 }
 
-.banner .shop-pic{ 
+.banner .shop-pic {
           width: 400px;
           height: 400px;
           margin-top: 100px;
@@ -108,12 +109,12 @@ nav a{
 
 /* section styles*/
 
- main{
+main {
           height: 530px;
           width: 1920px;
 }
 
-.about{
+.about {
           padding: 130px;
           border-radius: 10px;
           background: white;
@@ -122,15 +123,16 @@ nav a{
 
 /*skill styles*/
 
-.skills-container{
+.skills-container {
           display: flex;
           gap: 24px;
 }
-.skill{
+
+.skill {
           padding: 30px;
 }
 
-.skill-pic{
+.skill-pic {
           border-radius: 300px 300px 0px 0px;
           background: rgba(199, 109, 137, 0.15);
           width: 464px;
@@ -138,7 +140,8 @@ nav a{
           flex-shrink: 0;
           text-align: center;
 }
-.skills-service{
+
+.skills-service {
           display: flex;
           background-size: 100%;
           background: rgba(39, 39, 39, 0.05);
@@ -146,45 +149,52 @@ nav a{
           height: 320px;
           margin: 0px;
           padding: 30px 30px 0px 35px;
-          align-items:center;
-          justify-content:center;
-          
+          align-items: center;
+          justify-content: center;
+
 }
 
-.image{
+.image {
           width: 88px;
           height: 88px;
           flex-shrink: 0;
 }
-.skill-description{
+
+.skill-description {
           border-radius: 10px;
-          text-align:center;
+          text-align: center;
           background-color: #a2e2ab;
           font-size: 16px;
           width: 300px;
           height: 35px;
           margin-right: 80px;
- 
+
           /* padding-right: 500px; */
 }
-.offer{
+
+.offer {
           background: rgba(229, 84, 115, 0.10);
           height: 530px;
           width: 1500px;
           padding: 30px 30px 0px 35px;
           display: flex;
-          align-items:center;
+          align-items: center;
           /* margin-left: 100px; */
           padding-left: 400px;
 
 }
-.offer > .btn-search{
+
+.offer>.btn-search {
           align-items: center;
 }
-.deal{
+
+.deal {
           text-align: center;
+          margin-left: 0px;
+          padding: 0px;
 }
-.btn-sign{
+
+.btn-sign {
           border-color: white;
           text-shadow: #181818;
           border-radius: 8px;
@@ -199,10 +209,19 @@ nav a{
           color: aliceblue;
 }
 
+.new {
+          width: 300px;
+          color: rgba(39, 39, 39, 0.60);
+          text-align: center;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 30px;
+}
 
 
-.skill-title{
-          border-radius:100px;
+
+.skill-title {
+          border-radius: 100px;
           background: #eb7dc1;
           border: 100px;
           border-color: #ee1fba;
@@ -211,4 +230,4 @@ nav a{
           font-weight: 700;
           margin-left: 137px;
           padding: 5px 35px;
-} 
+}
