@@ -115,9 +115,23 @@ nav a{
 }
 .pic{
           border-radius: 300px 300px 0px 0px;
-          background: rgba(167, 33, 98, 0.15);
+          background: rgba(199, 109, 137, 0.15);
           width: 464px;
           height: 538px;
           flex-shrink: 0;
           text-align: center;
 }
+.skill-title{
+          border-radius:100px;
+          background: #eb7dc1;
+          border: 100;
+          border-color: #ee1fba;
+          color: white;
+          font: italic;
+          font-size: 20px;
+          font-weight: 700;
+          margin-left: 137px;
+          padding: 5px 35px;
+}
+
+
