@@ -167,6 +167,37 @@ nav a{
  
           /* padding-right: 500px; */
 }
+.offer{
+          background: rgba(229, 84, 115, 0.10);
+          height: 530px;
+          width: 1500px;
+          padding: 30px 30px 0px 35px;
+          display: flex;
+          align-items:center;
+          /* margin-left: 100px; */
+          padding-left: 400px;
+
+}
+.offer > .btn-search{
+          align-items: center;
+}
+.deal{
+          text-align: center;
+}
+.btn-sign{
+          border-color: white;
+          text-shadow: #181818;
+          border-radius: 8px;
+          background-color: #E55473;
+          margin-left: 10px;
+          display: inline-flex;
+          padding: 20px 43px;
+          align-items: flex-start;
+          gap: 10px;
+          font-size: x-large;
+          font-weight: bold;
+          color: aliceblue;
+}
 
 
 
