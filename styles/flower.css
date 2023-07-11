@@ -243,6 +243,9 @@ main {
            font-weight: 800;
            line-height: normal;
 }
+#flower{
+          display: flow-root;
+}
 
 .skill-title {
           border-radius: 100px;
