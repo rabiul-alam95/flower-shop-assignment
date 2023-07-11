@@ -218,7 +218,31 @@ main {
           line-height: 30px;
 }
 
+.skills-last{
+          display: flex;
+          align-items: center;
+          height: 530px;
+          width: 1500px;
+}
+.skill-lst{
+          align-items: center;
+          margin: 20px;
+}
+.skill-pic-lst{
+          margin-left: 200px;
+}
 
+.footer-column{
+          width: 1500px;
+          height: 300px;
+          flex-shrink: 0;
+}
+.section-flower{
+          
+           font-size: 48px;
+           font-weight: 800;
+           line-height: normal;
+}
 
 .skill-title {
           border-radius: 100px;
