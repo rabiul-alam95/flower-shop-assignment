@@ -1,7 +1,10 @@
 /* common shared styles */
+
 body {
+          
           font-family: 'Lato', sans-serif;
           font-family: 'Open Sans', sans-serif;
+          
 }
 
 .text-primary {
@@ -38,8 +41,7 @@ body {
           padding: 10px 20px;
 }
 
-.btn-primary,
-.btn-next {
+.btn-primary, .btn-next {
           margin: 10px;
 }
 
@@ -146,7 +148,7 @@ main {
           background-size: 100%;
           background: rgba(39, 39, 39, 0.05);
           width: 1600px;
-          height: 320px;
+          height: 200px;
           margin: 0px;
           padding: 30px 30px 0px 35px;
           align-items: center;
@@ -174,7 +176,7 @@ main {
 
 .offer {
           background: rgba(229, 84, 115, 0.10);
-          height: 530px;
+          height: 450px;
           width: 1500px;
           padding: 30px 30px 0px 35px;
           display: flex;
@@ -231,22 +233,6 @@ main {
 .skill-pic-lst{
           margin-left: 200px;
 }
-
-.footer-column{
-          width: 1500px;
-          height: 300px;
-          flex-shrink: 0;
-}
-.section-flower{
-          
-           font-size: 48px;
-           font-weight: 800;
-           line-height: normal;
-}
-#flower{
-          display: flow-root;
-}
-
 .skill-title {
           border-radius: 100px;
           background: #eb7dc1;
@@ -258,3 +244,45 @@ main {
           margin-left: 137px;
           padding: 5px 35px;
 }
+
+.section-pic{
+          background-image: url(../FlowerAsset/Rectangle9.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          margin-top: 0px;
+}
+.background{
+          color: #272727;
+          text-align: center;
+          font-size: 40px;
+          font-weight: 800;
+
+}
+.article{
+          color: rgba(39, 39, 39, 0.60);text-align: center;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 30px;
+}
+#myEmail{
+          align-items: center;
+          font-size: large;
+          width: 700px;
+          height: 64px;
+          flex-shrink: 0;
+          margin-left: 550px;
+          margin-bottom: 300px;
+}
+.subscribe{
+          background-color: #E55473;
+          color: white;
+          font-size: x-large;
+          align-items: center;
+          width: 150px;
+          height: 64px;
+          flex-shrink: 0;
+          margin: 0px;
+}
+/*footer style*/
+
+
